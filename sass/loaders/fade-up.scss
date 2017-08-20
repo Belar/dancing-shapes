@@ -1,0 +1,19 @@
+@import '../elements';
+@import '../animations/fade-up';
+.loader.fade-up {
+  @extend %loader;
+  .partial {
+    @extend %partial;
+    animation-duration: .8s;
+    animation-name: fade-up;
+    &:nth-of-type(2) {
+      animation-delay: -.1s
+    }
+    &:nth-of-type(3) {
+      animation-delay: .2s
+    }
+    &:nth-of-type(4) {
+      animation-delay: .5s
+    }
+  }
+}

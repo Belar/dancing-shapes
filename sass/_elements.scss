@@ -1,0 +1,13 @@
+@import './settings';
+%loader {
+  text-align: center;
+}
+
+%partial {
+  display: inline-block;
+  width: $partialWidth;
+  height: $partialHeight;
+  background: $partialBg;
+  animation-iteration-count: infinite;
+  border-radius: $partialBorderRadius;
+}

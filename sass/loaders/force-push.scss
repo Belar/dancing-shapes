@@ -1,0 +1,17 @@
+@import '../elements';
+@import '../animations/slide-left';
+@import '../animations/slide-right';
+.loader.force-push {
+  @extend %loader;
+  .partial {
+    @extend %partial;
+    animation-duration: 1.2s;
+    &:first-of-type {
+      animation-name: slide-left;
+    }
+    &:last-of-type {
+      animation-name: slide-right;
+      animation-delay: .6s;
+    }
+  }
+}
