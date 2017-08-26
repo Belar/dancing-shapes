@@ -1,3 +1,7 @@
+<div align="center">
+  <img width="100" heigth="100" src="./dancing_shapes_icon.svg">
+</div>
+
 # Dancing Shapes
 
 CSS-only, minimalist loading animations
