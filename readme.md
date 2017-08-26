@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100" heigth="100" src="./dancing_shapes_icon.svg">
+  <img width="100" heigth="100" src="./dancing_shapes_icon.png">
 </div>
 
 # Dancing Shapes
