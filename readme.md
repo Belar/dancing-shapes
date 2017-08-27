@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100" heigth="100" src="./dancing_shapes_icon.png">
+  <img width="100" height="100" src="./dancing_shapes_icon.png">
 </div>
 
 # Dancing Shapes
@@ -8,7 +8,7 @@ CSS-only, minimalist loading animations
 
 ### CSS/Sass
 
-Dancing Shapes can be used as a traditional CSS, with files available in `/dist` (after running build command) or with Sass compilers, by importing necessary files from `/sass`:
+Dancing Shapes can be used as a traditional CSS, with files available in `/dist` (after running build command) or with Sass compilers, by importing necessary files from `/sass`: 
 
 ```scss
 // Import within /sass directory
