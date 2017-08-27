@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Belar",
-  "license": "",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Belar/dancing-shapes"
@@ -17,6 +17,11 @@
   "bugs": {
     "url": "https://github.com/Belar/dancing-shapes/issues"
   },
+  "keywords": [
+    "loaders",
+    "css-animation",
+    "css"
+  ],
   "devDependencies": {
     "browser-sync": "^2.18.7",
     "node-sass": "^4.5.0"
