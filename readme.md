@@ -10,7 +10,7 @@ CSS-only, minimalist loading animations
 
 ### CSS/Sass
 
-Dancing Shapes can be used as a traditional CSS, with files available in `/dist` (after running build command) or with Sass compilers, by importing necessary files from `/sass`: 
+Dancing Shapes can be used as a traditional CSS, with files available in `/dist` (after running build command) or through [CDN](#cdn). With Sass compiler, import necessary files from `/sass`: 
 
 ```scss
 // Import within /sass directory
@@ -44,3 +44,16 @@ where `<loader_type>` is one of loaders e.g. `bubble` or `fade-up`
 ### Browser support
 
 Depends on required browser support, you may need to use `autoprefixer`, which is available for [all major build tools](https://github.com/postcss/autoprefixer#usage).
+
+### CDN
+Thanks to [unpkg.com](https://unpkg.com/) you can include Dancing Shapes on a website directly from the npm package:
+
+```html
+<!--Specific loader-->
+<link href="https://unpkg.com/dancing-shapes@latest/dist/css/<loader_type>.css" rel="stylesheet">
+
+<!--All loaders-->
+<link href="https://unpkg.com/dancing-shapes@latest/dist/css/dancing-shapes.min.css" rel="stylesheet">
+```
+
+where `<loader_type>` is one of loaders e.g. `bubble` or `fade-up`
