@@ -6,6 +6,8 @@
 
 CSS-only, minimalist loading animations
 
+[Demo](https://jsfiddle.net/Belar/syukjf0c/show/)
+
 ### CSS/Sass
 
 Dancing Shapes can be used as a traditional CSS, with files available in `/dist` (after running build command) or with Sass compilers, by importing necessary files from `/sass`: 
