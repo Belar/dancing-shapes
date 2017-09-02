@@ -1,6 +1,6 @@
 {
   "name": "dancing-shapes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS-only, minimalist loading animations",
   "scripts": {
     "dev:sass": "node-sass ./sass/dancing-shapes.scss ./example/css/dancing-shapes.css && node-sass ./sass/dancing-shapes.scss ./example/css/dancing-shapes.css  -w ./sass",
